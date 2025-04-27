@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header { 
+    background-color: #5f4842;
+    padding: 16px 0;
+    color: black;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-left: 16px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.articles article img {
+        width: 100%;
+        height: 250px; /* um pouco mais alto */
+        object-fit: cover;
+        border-radius: 8px; /* deixa as bordas arredondadas */
+}
+
+
+.articles article {
+    width: 30%;
+}
+
+.articles article a {
+    border-radius: 8px; /* deixa as bordas arredondadas */
+}
+
+.articles article {
+    background-color: white; /* cor normal de fundo */
+    transition: background-color 0.3s; /* faz a troca ficar suave */
+    border-radius: 8px; /* deixa as bordas arredondadas */
+    padding: 20px; /* define o tamanho da cor de fundo */
+}
+
+.articles article:hover {
+    background-color: #FFF4F2; /* cor de fundo quando passar o mouse */
+    border-radius: 8px; /* deixa as bordas arredondadas */
+}
+section {
+    padding: 16px 0;
+}
+
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: #af8d86;
+    color: black;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section h2 {
+    font-size: 40px;
+}
+
+#sports {
+    background-color:white;
+}
+
+#sports .articles article a{
+    background-color: #af8d86;
+    border-radius: 8px;
+}
+
+#economy {
+    background-color: white;
+    
+}
+
+#economy .articles article a{
+    background-color: #af8d86;
+    border-radius: 8px;
+}
+
+hr {
+    border: line;
+    height: 2px;
+    background-color: #ccc; /* cor da linha */
+    margin: 40px 0; /* espaço em cima e embaixo */
+}
+footer {
+    background-color: #5f4842; /* cor de fundo (pode mudar para combinar com site) */
+    padding: 16px;
+    text-align: center;
+    color: #fff; /* texto branco para destacar */
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0; /* remove espaço extra */
+}
